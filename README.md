@@ -1,5 +1,6 @@
 The following is project's information :
 - Used Database : sqlite (There is no need to credential)
+- This project related with [Frontend](https://github.com/LuthfanM/PL-Advanced-Landing-Page).
 
 ```bash
 composer install //install dependencies
@@ -23,4 +24,12 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
+
+In case you need to see available provided api, check api.php
+To test with Postman (or anything) if api already working
+```bash
+
+GET http://127.0.0.1:8080/api/surfers
+
 ```
